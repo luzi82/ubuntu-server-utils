@@ -1,5 +1,8 @@
 #!/bin/bash -e
 
+# echo date
+echo "=== $(date +%Y-%m-%dT%H:%M:%S) ==="
+
 # apt-get
 apt-get update
 apt-get -y upgrade
