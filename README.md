@@ -5,5 +5,6 @@
 ```
 cd ~
 git clone git@github.com:luzi82/ubuntu-server-utils.git
-cp ~/ubuntu-server-utils/cron/_etc-cron-d/ubuntu-server-utils /etc/cron.d/
+cd ubuntu-server-utils
+./install.sh
 ```
