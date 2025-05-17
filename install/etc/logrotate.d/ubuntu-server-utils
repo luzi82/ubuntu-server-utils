@@ -1,4 +1,4 @@
-/var/log/ubunut-server-utils/update-reboot.log {
+/var/log/ubuntu-server-utils/update-reboot.log {
     monthly
     missingok
     rotate 12
