@@ -1,1 +1,1 @@
-0 3 * * * root bash -e /root/ubuntu-server-utils/cron/update-reboot/update-reboot.sh
+0 3 * * 6 root bash -e /root/ubuntu-server-utils/cron/update-reboot/update-reboot.sh
