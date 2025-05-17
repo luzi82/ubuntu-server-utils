@@ -1,0 +1,7 @@
+/var/log/ubunut-server-utils/update-reboot.log {
+    monthly
+    missingok
+    rotate 12
+    compress
+    notifempty
+}

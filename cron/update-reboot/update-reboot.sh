@@ -1,12 +1,3 @@
 #!/bin/bash -e
 
-# apt-get
-apt-get update
-apt-get -y upgrade
-apt-get -y dist-upgrade
-apt-get -y autoremove
-apt-get -y autoclean
-apt-get -y clean
-
-# reboot
-reboot
+/bin/bash -e /root/ubuntu-server-utils/cron/update-reboot/_update-reboot.sh >> /var/log/ubuntu-server-utils/update-reboot.log 2>&1
